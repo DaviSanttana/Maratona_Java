@@ -15,5 +15,7 @@ public class SelecaoTest01 {
 
         selecaoBrasil.setJogadoresBrasil(jogadoresBrasil);
         selecaoBrasil.imprime();
+
+
     }
 }
