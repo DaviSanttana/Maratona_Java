@@ -18,7 +18,7 @@ public class Pessoa {
         System.out.println("Nome: "+this.nome);
         System.out.println("CPF: "+this.cpf);
         System.out.println(this.endereco.getRua()  +" CEP: "+this.endereco.getCep());
-        System.out.println();
+
     }
 
     public String getNome() {
