@@ -14,6 +14,10 @@ public class ClienteTest01 {
         System.out.println(cliente2);
         System.out.println(TipoPagamento.DEBITO.calcularDesconto(135));
         System.out.println(TipoPagamento.CREDITO.calcularDesconto(270));
+        TipoCliente tipocliente = TipoCliente.valueOf("PESSOA_FISICA");
+        System.out.println(tipocliente.getNomeRelatorio());
+        TipoCliente tipocliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica");
+        System.out.println(tipocliente2);
 
     }
 }
